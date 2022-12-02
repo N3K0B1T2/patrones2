@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    padding: 15px 15px;
+    margin-top:30;
+    margin-left: 30;
+    background-color: royalblue;
+    border-radius: 5px;
+    border:none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79,79,79,0.7);
+    z-index: 1;
+    visibility: hidden;
+
+}
+
+.modal-mda{
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.modal-container h2{
+    font-size: 25px;
+    font-weight: 500;
+}
